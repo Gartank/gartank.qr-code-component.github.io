@@ -31,7 +31,7 @@ body{
 
 	background-color: var(--white);
 }
-.qr__img, .component__title, .component__legend{
+.qr__img, .component__text{
 	width: 290px;
 }
 .qr__img {
@@ -65,5 +65,14 @@ body{
 	}
 	.qr__img, .component__legend, .component__title{
 		width: 350px;
+	}
+	.component__text{
+		margin-block: 10px;
+	}
+	.component__title{
+		font-size: 1.8em;
+	}
+	.component__legend{
+		font-size: 1.3em;
 	}
 }
