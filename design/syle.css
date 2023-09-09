@@ -53,7 +53,9 @@ body{
 	text-align: center;
 	
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+	color: hsl(228, 45%, 44%);
+}
 
 @media(min-width: 376px){
 	body{
