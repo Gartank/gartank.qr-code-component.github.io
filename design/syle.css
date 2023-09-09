@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-/* moblie firts technique*/
+/* mobile first workflow*/
 * {
 	font-family: 'Outfit', sans-serif;
 	--white: hsl(0, 0%, 100%);
