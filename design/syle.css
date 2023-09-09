@@ -8,6 +8,7 @@
 	--dark-blue: hsl(218, 44%, 22%);
 	box-sizing: border-box;
 	font-size: 16px;
+	margin: 0;
 }
 body{
 	background-color: var(--light-gray);
@@ -55,7 +56,14 @@ body{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media(min-width: 376px){
+	body{
+		justify-content: space-evenly;
+		gap: 20%;
+	}
 	.qr-component{
 		margin-top: 10%;
+	}
+	.qr__img, .component__legend, .component__title{
+		width: 350px;
 	}
 }
